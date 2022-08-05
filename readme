@@ -4,3 +4,5 @@ Clone This Repositiory
 Move to VisualStudio with Base Folder Location
 Open CMD and first Command npm i (it will install all latest node module)
 Then npm test -- --reporter mochawesome it will run the test in that folder
+
+
