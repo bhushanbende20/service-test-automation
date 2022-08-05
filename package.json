@@ -1,0 +1,39 @@
+{
+  "name": "nodejsapiframework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/register": "^7.17.7",
+    "chai": "^4.3.6",
+    "mocha": "^9.2.2",
+    "mochawesome": "^7.1.3",
+    "parser": "@babel/eslint-parser",
+    "require": "^2.4.20",
+    "supertest": "^6.2.2",
+    "sync-request": "^6.1.0"
+  },
+  "args": [
+    "-u",
+    "bdd",
+    "--timeout",
+    "999999",
+    "--colors",
+    "${workspaceFolder}/test/**/*.js"
+  ],
+  "internalConsoleOptions": "openOnSessionStart",
+  "dependencies": {
+    "nvm": "^0.0.4"
+  }
+}
