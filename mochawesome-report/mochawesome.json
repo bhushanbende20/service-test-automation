@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-05T04:30:35.667Z",
-    "end": "2022-08-05T04:30:36.913Z",
-    "duration": 1246,
+    "start": "2022-08-05T04:48:25.323Z",
+    "end": "2022-08-05T04:48:26.667Z",
+    "duration": 1344,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,18 +18,18 @@
   },
   "results": [
     {
-      "uuid": "223cf918-4c37-47b8-9300-34e3f49755fd",
+      "uuid": "e83891d7-2eb6-43b6-adc5-72dbd25c12ef",
       "title": "",
-      "fullFile": "G:\\NodeJSAPIFramework\\test\\users.js",
+      "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\test\\users.js",
       "file": "\\test\\users.js",
       "beforeHooks": [],
       "afterHooks": [],
       "tests": [],
       "suites": [
         {
-          "uuid": "2e89d90b-8807-4bb8-8912-128439142944",
+          "uuid": "fa795603-502c-41fa-8fcb-26aa8b070abe",
           "title": "Webserives Trial Testing",
-          "fullFile": "G:\\NodeJSAPIFramework\\test\\users.js",
+          "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\test\\users.js",
           "file": "\\test\\users.js",
           "beforeHooks": [],
           "afterHooks": [],
@@ -38,7 +38,7 @@
               "title": "01",
               "fullTitle": "Webserives Trial Testing 01",
               "timedOut": false,
-              "duration": 1240,
+              "duration": 1335,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "console.log(testData);\nuser.getToken(testData);",
               "err": {},
-              "uuid": "4ec22de8-1f5f-4cc6-a9fb-592a719c1be3",
-              "parentUUID": "2e89d90b-8807-4bb8-8912-128439142944",
+              "uuid": "d1347cb1-6416-4daf-bb78-84870fcdc35c",
+              "parentUUID": "fa795603-502c-41fa-8fcb-26aa8b070abe",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "4ec22de8-1f5f-4cc6-a9fb-592a719c1be3"
+            "d1347cb1-6416-4daf-bb78-84870fcdc35c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1240,
+          "duration": 1335,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
