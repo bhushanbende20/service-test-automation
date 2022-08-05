@@ -5,9 +5,9 @@
     "passes": 1,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-05T04:48:25.323Z",
-    "end": "2022-08-05T04:48:26.667Z",
-    "duration": 1344,
+    "start": "2022-08-05T05:22:13.691Z",
+    "end": "2022-08-05T05:22:14.946Z",
+    "duration": 1255,
     "testsRegistered": 1,
     "passPercent": 100,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "e83891d7-2eb6-43b6-adc5-72dbd25c12ef",
+      "uuid": "2a9dee61-1f80-4314-9416-5fcc81c09107",
       "title": "",
       "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\test\\users.js",
       "file": "\\test\\users.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "fa795603-502c-41fa-8fcb-26aa8b070abe",
+          "uuid": "7a62d53d-463c-49b4-9303-283a362b03d6",
           "title": "Webserives Trial Testing",
           "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\test\\users.js",
           "file": "\\test\\users.js",
@@ -38,7 +38,7 @@
               "title": "01",
               "fullTitle": "Webserives Trial Testing 01",
               "timedOut": false,
-              "duration": 1335,
+              "duration": 1245,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,20 @@
               "context": null,
               "code": "console.log(testData);\nuser.getToken(testData);",
               "err": {},
-              "uuid": "d1347cb1-6416-4daf-bb78-84870fcdc35c",
-              "parentUUID": "fa795603-502c-41fa-8fcb-26aa8b070abe",
+              "uuid": "3f513d81-2432-4522-9b48-8b98a984e229",
+              "parentUUID": "7a62d53d-463c-49b4-9303-283a362b03d6",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "d1347cb1-6416-4daf-bb78-84870fcdc35c"
+            "3f513d81-2432-4522-9b48-8b98a984e229"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1335,
+          "duration": 1245,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
