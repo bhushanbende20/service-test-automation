@@ -1,14 +1,14 @@
 {
   "stats": {
     "suites": 1,
-    "tests": 1,
-    "passes": 1,
+    "tests": 2,
+    "passes": 2,
     "pending": 0,
     "failures": 0,
-    "start": "2022-08-05T05:22:13.691Z",
-    "end": "2022-08-05T05:22:14.946Z",
-    "duration": 1255,
-    "testsRegistered": 1,
+    "start": "2022-08-06T07:58:57.546Z",
+    "end": "2022-08-06T07:58:59.715Z",
+    "duration": 2169,
+    "testsRegistered": 2,
     "passPercent": 100,
     "pendingPercent": 0,
     "other": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "2a9dee61-1f80-4314-9416-5fcc81c09107",
+      "uuid": "0a028732-00c6-4e0c-91d5-4758321f1f9a",
       "title": "",
       "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\test\\users.js",
       "file": "\\test\\users.js",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "7a62d53d-463c-49b4-9303-283a362b03d6",
+          "uuid": "b3123372-116b-4e91-8a29-e6487d4add4d",
           "title": "Webserives Trial Testing",
           "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\test\\users.js",
           "file": "\\test\\users.js",
@@ -38,7 +38,7 @@
               "title": "01",
               "fullTitle": "Webserives Trial Testing 01",
               "timedOut": false,
-              "duration": 1245,
+              "duration": 1265,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -47,20 +47,39 @@
               "context": null,
               "code": "console.log(testData);\nuser.getToken(testData);",
               "err": {},
-              "uuid": "3f513d81-2432-4522-9b48-8b98a984e229",
-              "parentUUID": "7a62d53d-463c-49b4-9303-283a362b03d6",
+              "uuid": "d2258c8d-e189-4ab9-ba28-164ab2e589fe",
+              "parentUUID": "b3123372-116b-4e91-8a29-e6487d4add4d",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "02",
+              "fullTitle": "Webserives Trial Testing 02",
+              "timedOut": false,
+              "duration": 894,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "console.log(testData);\nuser.getToken(testData);",
+              "err": {},
+              "uuid": "e30861ad-edac-4fc8-a65f-8fddca0cb35c",
+              "parentUUID": "b3123372-116b-4e91-8a29-e6487d4add4d",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "3f513d81-2432-4522-9b48-8b98a984e229"
+            "d2258c8d-e189-4ab9-ba28-164ab2e589fe",
+            "e30861ad-edac-4fc8-a65f-8fddca0cb35c"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 1245,
+          "duration": 2159,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000

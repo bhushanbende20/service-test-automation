@@ -3,7 +3,17 @@
     "testData": {
         "test1": {
             "id": "01",
-            "testName":"GetToken"
-        }
+            "testName":"GetToken02 ",
+            "suit":["regression" ,"smoke"]
+        },
+        "test2": {
+            "id": "02",
+            "testName":"GetToken02",
+            "status":400,
+            "suit":["regression" ,"smoke"] ,
+            "key":["name"],
+            "value":["bhushan"]
+
+            }
     }
 }

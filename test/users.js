@@ -19,18 +19,21 @@ describe('Webserives Trial Testing', () => {
     console.log("******************************************************");
 
     MyEmitter.on("testData", (testData) => {
-
+if(testData.suit.includes("regression") && !testData.suit.includes("disabled")){
         it(String(testData.id), () => {
             console.log(testData);
             user.getToken(testData);
         });
+    }
 
     });
 
 
     for (var eachTestData in testData) {
         if (null != eachTestData) {
-                 MyEmitter.emit("testData", testData[eachTestData]);
+            
+                     MyEmitter.emit("testData", testData[eachTestData]);
+            
      
         }
     }
