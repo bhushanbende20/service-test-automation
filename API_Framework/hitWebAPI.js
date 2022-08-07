@@ -7,7 +7,7 @@ module.exports.getResponse = async function (type, URL, options) {
 
 
     var response = {};
-     //var result =  req1(type, URL, options);
+     
     var result = await axios({
         method: type,
         url: URL,
