@@ -1,3 +1,13 @@
 {
-    "url":"https://restful-booker.herokuapp.com/"
+    "executionGroup":"asdfasdf",
+    "testPathModules":[
+        
+        "./WebServices/postUser/testScript"
+    ],
+    "url":"https://gorest.co.in/",
+    "header":{
+    "Authorization" :"Bearer 42f1a25213b4a597d917aee2b4f6b3b1e9a67fe77b2edb7b52ee148ade8416d8" 
+    }
+    
+
 }

@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "mocha"
+    "test": "WebServices"
   },
   "keywords": [],
   "author": "",
@@ -22,7 +22,8 @@
     "parser": "@babel/eslint-parser",
     "require": "^2.4.20",
     "supertest": "^6.2.2",
-    "sync-request": "^6.1.0"
+    "sync-request": "^6.1.0",
+    "axios": "^0.16.2"
   },
   "args": [
     "-u",

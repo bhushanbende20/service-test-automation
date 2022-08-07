@@ -1,9 +1,0 @@
-{
-    "testSuit": "API Test USER",
-    "testData": {
-        "test1": {
-            "id": "01",
-            "testName":"GetToken"
-        }
-    }
-}
