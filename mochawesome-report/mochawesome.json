@@ -5,9 +5,9 @@
     "passes": 2,
     "pending": 0,
     "failures": 2,
-    "start": "2022-08-07T06:51:05.850Z",
-    "end": "2022-08-07T06:51:07.613Z",
-    "duration": 1763,
+    "start": "2022-08-07T07:11:40.878Z",
+    "end": "2022-08-07T07:11:42.896Z",
+    "duration": 2018,
     "testsRegistered": 4,
     "passPercent": 50,
     "pendingPercent": 0,
@@ -18,7 +18,7 @@
   },
   "results": [
     {
-      "uuid": "bf800b3b-21d0-48e6-b685-3b4e89f29dd6",
+      "uuid": "aea5d7fc-b572-449c-aec9-a6f81775bd97",
       "title": "",
       "fullFile": "",
       "file": "",
@@ -27,7 +27,7 @@
       "tests": [],
       "suites": [
         {
-          "uuid": "6cc05865-3724-4168-991e-4ec4acb43447",
+          "uuid": "cdcafc5a-25db-402c-ba54-8edec30affcb",
           "title": "Post Trial Testing",
           "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\WebServices\\postUser\\testScript",
           "file": "\\WebServices\\postUser\\testScript",
@@ -38,7 +38,7 @@
               "title": "01",
               "fullTitle": "Post Trial Testing 01",
               "timedOut": false,
-              "duration": 572,
+              "duration": 567,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -51,8 +51,8 @@
                 "estack": "Error: Request failed with status code 422\n    at createError (node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (node_modules\\axios\\lib\\core\\settle.js:18:12)\n    at IncomingMessage.handleStreamEnd (node_modules\\axios\\lib\\adapters\\http.js:191:11)\n    at IncomingMessage.emit (node:events:539:35)\n    at endReadableNT (node:internal/streams/readable:1345:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
                 "diff": null
               },
-              "uuid": "c9120d34-a5d3-4d80-9a6e-e1b8381a1d76",
-              "parentUUID": "6cc05865-3724-4168-991e-4ec4acb43447",
+              "uuid": "be0645a5-14a0-49f6-9efd-503f1d1ba522",
+              "parentUUID": "cdcafc5a-25db-402c-ba54-8edec30affcb",
               "isHook": false,
               "skipped": false
             },
@@ -60,7 +60,7 @@
               "title": "02",
               "fullTitle": "Post Trial Testing 02",
               "timedOut": false,
-              "duration": 359,
+              "duration": 485,
               "state": "failed",
               "speed": null,
               "pass": false,
@@ -73,8 +73,8 @@
                 "estack": "Error: Request failed with status code 422\n    at createError (node_modules\\axios\\lib\\core\\createError.js:16:15)\n    at settle (node_modules\\axios\\lib\\core\\settle.js:18:12)\n    at IncomingMessage.handleStreamEnd (node_modules\\axios\\lib\\adapters\\http.js:191:11)\n    at IncomingMessage.emit (node:events:539:35)\n    at endReadableNT (node:internal/streams/readable:1345:12)\n    at processTicksAndRejections (node:internal/process/task_queues:83:21)",
                 "diff": null
               },
-              "uuid": "4fd71662-780c-484d-a54c-1f68e1b6ac16",
-              "parentUUID": "6cc05865-3724-4168-991e-4ec4acb43447",
+              "uuid": "9d6981e9-e6dd-42b7-b0ef-4b816aadc3b6",
+              "parentUUID": "cdcafc5a-25db-402c-ba54-8edec30affcb",
               "isHook": false,
               "skipped": false
             }
@@ -82,18 +82,18 @@
           "suites": [],
           "passes": [],
           "failures": [
-            "c9120d34-a5d3-4d80-9a6e-e1b8381a1d76",
-            "4fd71662-780c-484d-a54c-1f68e1b6ac16"
+            "be0645a5-14a0-49f6-9efd-503f1d1ba522",
+            "9d6981e9-e6dd-42b7-b0ef-4b816aadc3b6"
           ],
           "pending": [],
           "skipped": [],
-          "duration": 931,
+          "duration": 1052,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
         },
         {
-          "uuid": "567bd8f1-8d4d-43fb-9f4f-10ba676147d2",
+          "uuid": "3b8661e2-d6db-4ddd-ad27-5ebae5bfe148",
           "title": "Get Trial Testing",
           "fullFile": "F:\\2022 Automation Test\\NodeJSAPITestAutomation\\WebServices\\getUser\\testScript",
           "file": "\\WebServices\\getUser\\testScript",
@@ -104,7 +104,7 @@
               "title": "01",
               "fullTitle": "Get Trial Testing 01",
               "timedOut": false,
-              "duration": 425,
+              "duration": 393,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -113,8 +113,8 @@
               "context": null,
               "code": "console.log(testData);\n\nawait user.userlist(this, testData);",
               "err": {},
-              "uuid": "e4ce15e4-2767-4eaf-ab1a-ce79d53e6bfb",
-              "parentUUID": "567bd8f1-8d4d-43fb-9f4f-10ba676147d2",
+              "uuid": "61513e92-8d66-4063-bd97-d75a4e913c58",
+              "parentUUID": "3b8661e2-d6db-4ddd-ad27-5ebae5bfe148",
               "isHook": false,
               "skipped": false
             },
@@ -122,7 +122,7 @@
               "title": "02",
               "fullTitle": "Get Trial Testing 02",
               "timedOut": false,
-              "duration": 387,
+              "duration": 548,
               "state": "passed",
               "speed": "slow",
               "pass": true,
@@ -131,21 +131,21 @@
               "context": null,
               "code": "console.log(testData);\n\nawait user.userlist(this, testData);",
               "err": {},
-              "uuid": "97f794fa-e0c0-430d-add6-0e6bfe3b9a55",
-              "parentUUID": "567bd8f1-8d4d-43fb-9f4f-10ba676147d2",
+              "uuid": "3b6fba02-18a8-4ba0-b069-056860b3bfb1",
+              "parentUUID": "3b8661e2-d6db-4ddd-ad27-5ebae5bfe148",
               "isHook": false,
               "skipped": false
             }
           ],
           "suites": [],
           "passes": [
-            "e4ce15e4-2767-4eaf-ab1a-ce79d53e6bfb",
-            "97f794fa-e0c0-430d-add6-0e6bfe3b9a55"
+            "61513e92-8d66-4063-bd97-d75a4e913c58",
+            "3b6fba02-18a8-4ba0-b069-056860b3bfb1"
           ],
           "failures": [],
           "pending": [],
           "skipped": [],
-          "duration": 812,
+          "duration": 941,
           "root": false,
           "rootEmpty": false,
           "_timeout": 2000
