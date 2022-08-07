@@ -1,5 +1,5 @@
 {
-    "executionGroup":"smoke",
+    "executionGroup":"asdfasdf",
     "testPathModules":[
         
         "./WebServices/postUser/testScript"

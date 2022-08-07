@@ -46,7 +46,7 @@ describe('Post Trial Testing', () => {
         addContext("bhaitoken ka chal raha hai ky dekh to");
        var URL = config.url + "/public/v2/users";
 
-      //requestData.email= Math.random()+"@postUsermail.com";
+      requestData.email= Math.random()+"@postUsermail.com";
 
         const options = {
             headers : config.header,
