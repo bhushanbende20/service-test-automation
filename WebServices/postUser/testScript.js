@@ -9,8 +9,11 @@ var testData = testDatafile.testData;
 const MyEmitter = new EventEmitter();
 const addContext = require('mochawesome/addContext');
 const { getMaxListeners } = require("process");
+const { createUserResponseValidation } = require("./validation");
 requestData = require("./createUser.json")
 var header={}
+var validation = require("./validation.js");
+
 
 
 
@@ -43,7 +46,7 @@ describe('Post Trial Testing', () => {
         addContext("bhaitoken ka chal raha hai ky dekh to");
        var URL = config.url + "/public/v2/users";
 
-       requestData.email= Math.random()+"@postUsermail.com";
+      //requestData.email= Math.random()+"@postUsermail.com";
 
         const options = {
             headers : config.header,
@@ -51,8 +54,9 @@ describe('Post Trial Testing', () => {
         };
 
         console.log(options);
-        var getdata =await hitwebservices.getResponse("POST", URL, options);
-        console.log(JSON.stringify(getdata, null, 2));
+        var response =await hitwebservices.getResponse("POST", URL, options);
+        console.log("Response : "+JSON.stringify(response, null, 2));
+        await validation.createUserResponseValidation(response,requestData,testData);
     }
 
 

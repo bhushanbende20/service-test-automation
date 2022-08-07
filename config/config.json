@@ -1,8 +1,8 @@
 {
     "executionGroup":"smoke",
     "testPathModules":[
-        "./WebServices/postUser/testScript",
-        "./WebServices/getUser/testScript"
+        
+        "./WebServices/postUser/testScript"
     ],
     "url":"https://gorest.co.in/",
     "header":{

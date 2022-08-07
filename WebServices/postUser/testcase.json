@@ -3,13 +3,14 @@
     "testData": {
         "test1": {
             "id": "01",
+            "status":201,
             "testName":"postUser ",
             "suit":["regression" ,"smoke"]
         },
         "test2": {
             "id": "02",
             "testName":"PostUser22",
-            "status":400,
+            "status":201,
             "suit":["regression" ,"smoke"] ,
             "key":["name"],
             "value":["bhushan"]
