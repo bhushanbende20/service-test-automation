@@ -11,7 +11,7 @@ const addContext = require('mochawesome/addContext');
 const { getMaxListeners } = require("process");
 const { createUserResponseValidation } = require("./validation");
 requestData = require("./createUser.json")
-var header={}
+var header = {}
 var validation = require("./validation.js");
 
 
@@ -23,7 +23,7 @@ describe('Post Trial Testing', () => {
 
     MyEmitter.on("testData", (testData) => {
         if (testData.suit.includes(global.executionGroup) && !testData.suit.includes("disabled")) {
-            it(String(testData.id), async () => {
+            it(String(testData.id), async function () {
                 console.log(testData.testName);
                 await postUser.getToken(this, testData);
             });
@@ -41,22 +41,25 @@ describe('Post Trial Testing', () => {
         }
     }
 
-    module.exports.getToken = async function(object, testData) {
-       // object._runnable.title = testData.testName;
-        addContext("bhaitoken ka chal raha hai ky dekh to");
-       var URL = config.url + "/public/v2/users";
+    module.exports.getToken = async function (object, testData) {
+        object._runnable.title = testData.testName;  
+        var URL = config.url + "/public/v2/users";
 
-      requestData.email= Math.random()+"@postUsermail.com";
+        addContext(object,'URL : '+URL);
+
+        requestData.email = Math.random() + "@postUsermail.com";
 
         const options = {
-            headers : config.header,
-            body : JSON.stringify(requestData,"UTF-8")
+            headers: config.header,
+            body: JSON.stringify(requestData, "UTF-8")
         };
 
         console.log(options);
-        var response =await hitwebservices.getResponse("POST", URL, options);
-        console.log("Response : "+JSON.stringify(response, null, 2));
-        await validation.createUserResponseValidation(response,requestData,testData);
+        addContext(object,'Request Data'+JSON.stringify(options, null, 2));
+        var response = await hitwebservices.getResponse("POST", URL, options);
+        console.log("Response : " + JSON.stringify(response, null, 2));
+        addContext(object,'Response'+JSON.stringify(response, null, 2));
+        await validation.createUserResponseValidation(response, requestData, testData);
     }
 
 
