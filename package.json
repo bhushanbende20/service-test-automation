@@ -4,7 +4,9 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "mocha"
+    "test": "mocha",
+    "trail": "mocha"
+
   },
   "keywords": [],
   "author": "",

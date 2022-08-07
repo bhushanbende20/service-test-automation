@@ -1,3 +1,7 @@
 {
+    "testPathModules":["./WebServices/trail/testScript","./WebServices/postUser/testScript"
+
+    ],
+    
     "url":"https://restful-booker.herokuapp.com/"
 }
