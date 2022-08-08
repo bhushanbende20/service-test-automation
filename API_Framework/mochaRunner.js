@@ -1,11 +1,15 @@
 const Mocha = require("mocha");
 
 
-module.exports.mochaReporter=function(testModules){
+module.exports.mochaReporter=function(testModules){  
 const mocha = new Mocha({
 
     reporter : 'Mochawesome',
-    
+
+    reporterOptions:{
+        reportFilename : "API TEST AUTOMATION ",
+        timestamp: 'ddmmyyHH:MM'
+    }    
 })
 
 

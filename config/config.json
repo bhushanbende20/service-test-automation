@@ -1,7 +1,7 @@
 {
-    "executionGroup":"asdfasdf",
+    "executionGroup":"smoke",
     "testPathModules":[
-        
+        "./WebServices/getUser/testScript",
         "./WebServices/postUser/testScript"
     ],
     "url":"https://gorest.co.in/",
