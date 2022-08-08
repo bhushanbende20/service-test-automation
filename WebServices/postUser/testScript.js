@@ -59,7 +59,7 @@ describe('Post Trial Testing', () => {
         var response = await hitwebservices.getResponse("POST", URL, options);
         console.log("Response : " + JSON.stringify(response, null, 2));
         addContext(object,'Response'+JSON.stringify(response, null, 2));
-        await validation.createUserResponseValidation(response, requestData, testData);
+        await validation.createUserResponseValidation(object,response, requestData, testData);
     }
 
 
