@@ -4,25 +4,28 @@ const axios = require("axios");
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = '0';
 const async = require("async");
 var body;
-module.exports.getResponse = async function (type, URL, options) {
+module.exports.getResponse = async function (type, URL, options,object) {
 
     if(options.hasOwnProperty("body")){
-        body = JSON.parse(options.body);
+        body = options.body;
     }
     
+    //console.log(body);
     var response = {};
      
+    //var result = await req1(type,URL,options);
     var result = await axios({
         method: type,
         url: URL,
         data: body,
-        headers: options.headers
+        headers: options.headers,
+        timeout : 5000
     }).then(function (response) {
-       // console.log(response)
+       console.log(response)
         return response;
     });
+    
 
-// console.log(result)
 
     if (result != null) {
        //s var body = result.data.toString('utf8');

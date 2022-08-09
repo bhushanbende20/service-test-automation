@@ -17,7 +17,7 @@ testModules.forEach(testModules => {
     mocha.addFile(testModules);  
 });
 
-mocha.run().on('end',function() {    
+mocha.run().on('end',async function() {    
     return {"isSuccess":true,"error":null}
    });
 

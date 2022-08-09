@@ -29,7 +29,7 @@
   "args": [
     "-u",
     "bdd",
-    "--timeout",
+    "timeout",
     "999999",
     "--colors",
     "${workspaceFolder}/test/**/*.js"

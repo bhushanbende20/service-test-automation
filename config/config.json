@@ -1,12 +1,12 @@
 {
     "executionGroup":"smoke",
     "testPathModules":[
-        "./WebServices/getUser/testScript",
-        "./WebServices/postUser/testScript"
+        "./WebServices/LoginAPI/testScript"
     ],
-    "url":"https://gorest.co.in/",
+    
+    "url_login":"https://uat.platform.devacaalpha.com/api/id/v3/legacy-authentication/login",
     "header":{
-    "Authorization" :"Bearer 42f1a25213b4a597d917aee2b4f6b3b1e9a67fe77b2edb7b52ee148ade8416d8" 
+    "Content-Type" :"Application/JSON" 
     }
     
 

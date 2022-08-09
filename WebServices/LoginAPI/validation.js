@@ -5,7 +5,8 @@ var expectedResponse  = require("./response.json");
 
 module.exports.createUserResponseValidation = async function(object,response,request,testData){
 
-    console.log("Response Validation Starts For CreateUSer");
+    console.log("Response Validation Starts For Login User : ");
+    addContext(object,'Response Validation Starts For Login User : ');
     
     if(testData.status!=response.statusCode){
         if(response.body=testData.error_body){
@@ -18,6 +19,6 @@ module.exports.createUserResponseValidation = async function(object,response,req
     }
     
 
-    if(expect(response.statusCode).to.equal(testData.status)){console.log("Status Code Matches")} 
+    if(expect(response.statusCode).to.equal(testData.status)){console.log("Status Code Matches");addContext(object,'Status Code Matches');} 
 
 }
