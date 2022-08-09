@@ -19,7 +19,7 @@ module.exports.getResponse = async function (type, URL, options,object) {
         url: URL,
         data: body,
         headers: options.headers,
-        timeout : 5000
+        timeout : 900000
     }).then(function (response) {
        console.log(response)
         return response;

@@ -15,6 +15,36 @@
             "key":["name"],
             "value":["bhushan"]
 
-            }
+        }, 
+        "test3": {
+                "id": "01",
+                "status":200,
+                "testName":"postUser ",
+                "suit":["regression" ,"smoke","try"]
+        },
+        "test24": {
+                "id": "02",
+                "testName":"PostUser22",
+                "status":201,
+                "suit":["regression" ,"smoke"] ,
+                "key":["name"],
+                "value":["bhushan"]
+    
+        },
+        "test5": {
+                    "id": "01",
+                    "status":200,
+                    "testName":"postUser ",
+                    "suit":["regression" ,"smoke","try"]
+                },
+        "test25": {
+                    "id": "02",
+                    "testName":"PostUser22",
+                    "status":201,
+                    "suit":["regression" ,"smoke"] ,
+                    "key":["name"],
+                    "value":["bhushan"]
+        
+                    }
     }
 }
