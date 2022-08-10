@@ -1,7 +1,7 @@
 const Mocha = require("mocha");
 
 
-module.exports.mochaReporter=function(testModules){  
+module.exports.mochaReporter=async function(testModules){  
 const mocha = new Mocha({
 
     reporter : 'Mochawesome',
@@ -13,7 +13,7 @@ const mocha = new Mocha({
 })
 
 
-testModules.forEach(testModules => {
+testModules.forEach(testModules  => {
     mocha.addFile(testModules);  
 });
 

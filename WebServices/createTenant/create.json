@@ -1,0 +1,19 @@
+{
+	"payload": {
+		"description": "1{{clientDesc}}",
+		"notes": "1{{clientNote}}",
+		"totangoId": null,
+		"allowedIPAddresses": null,
+		"defaultTimezone": "Africa/Abidjan",
+		"defaultCurrencyCodeId": 1,
+		"name": "1{{clientName}}",
+		"urlSlugName": "1{{urlSlugName}}",
+		"domainsToAdd": [],
+		"productFeaturesToAdd": [],
+		"productsToAdd": [6, 10, 13, 9, 1, 2, 3, 5, 7, 8, 11, 14],
+		"partnerEntityId": null,
+		"isTwoFactorRequired": false,
+		"salesForceAccountID": "{{salesForceAccountID}}",
+		"ssoDefinitions": []
+	}
+}

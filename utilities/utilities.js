@@ -1,3 +1,5 @@
+var _ = require('lodash')
+
 module.exports.updateJson = async function (payloadData, testDataKey, testDatavalues) {
     
     for (var i = 0; i < testDataKey.length; i++) {
@@ -18,4 +20,8 @@ module.exports.updateJson = async function (payloadData, testDataKey, testDatava
 
     return payloadData;
     
+}
+
+module.exports.isSameJson = async function(object,json1,json2){
+    return _.isEqual(json1,json2);
 }

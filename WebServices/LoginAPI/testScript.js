@@ -14,7 +14,7 @@ var requestData = require("./request.json")
 var header = {}
 var validation = require("./validation.js");
 var utilities = require("../../utilities/utilities.js");
-
+var pathURL = "legacy-authentication/login";
 
 
 
@@ -44,7 +44,7 @@ describe('loginUser Testing', () => {
 
     module.exports.verifyTest = async function (object, testData) {
         object._runnable.title = testData.testName;  
-        var URL = config.url_login;
+        var URL = config.url+pathURL;
 
         addContext(object,'Login URL : '+URL);
 
@@ -55,7 +55,7 @@ describe('loginUser Testing', () => {
 
         const options = {
             headers: config.header,
-            body: requestData
+            body: requestData,
         };
 
         //console.log(options);

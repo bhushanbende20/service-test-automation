@@ -1,13 +1,14 @@
 {
     "executionGroup":"smoke",
     "testPathModules":[
-        "./WebServices/LoginAPI/testScript"
+        "./WebServices/createTenant/testScript"
     ],
     
-    "url_login":"https://uat.platform.devacaalpha.com/api/id/v3/legacy-authentication/login",
+    "url":"https://uat.platform.devacaalpha.com/api/id/v3/",
     "header":{
-    "Content-Type" :"Application/JSON" 
+    "Content-Type" :"Application/JSON",
+    "Authorization":"" 
+
     }
-    
 
 }

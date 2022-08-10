@@ -1,0 +1,77 @@
+{
+    "testSuit": "API Test USER",
+    "testData": {
+        "test1": {
+            "id": "01",
+            "status":200,
+            "testName":"createTenanat with valid token",
+            "suit":["regression" ,"smoke","1"]
+        },
+        "test2": {
+            "id": "02",
+            "status":201,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test3": {
+            "id": "03",
+            "status":400,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test4": {
+            "id": "01",
+            "status":200,
+            "testName":"createTenanat with valid token",
+            "suit":["regression" ,"smoke","1"]
+        },
+        "test6": {
+            "id": "02",
+            "status":201,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test5": {
+            "id": "03",
+            "status":400,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test17": {
+            "id": "01",
+            "status":200,
+            "testName":"createTenanat with valid token",
+            "suit":["regression" ,"smoke","1"]
+        },
+        "test27": {
+            "id": "02",
+            "status":201,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test37": {
+            "id": "03",
+            "status":400,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test47": {
+            "id": "01",
+            "status":200,
+            "testName":"createTenanat with valid token",
+            "suit":["regression" ,"smoke","1"]
+        },
+        "test67": {
+            "id": "02",
+            "status":201,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        },
+        "test57": {
+            "id": "03",
+            "status":400,
+            "testName":"Verify Status Code 201 ",
+            "suit":["regression" ,"smoke",""]
+        }
+    }
+}

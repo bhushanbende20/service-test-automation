@@ -7,7 +7,7 @@ var body;
 module.exports.getResponse = async function (type, URL, options,object) {
 
     if(options.hasOwnProperty("body")){
-        body = options.body;
+        reqbody = options.body;
     }
     
     //console.log(body);
@@ -17,11 +17,11 @@ module.exports.getResponse = async function (type, URL, options,object) {
     var result = await axios({
         method: type,
         url: URL,
-        data: body,
+        data: reqbody,
         headers: options.headers,
-        timeout : 900000
-    }).then(function (response) {
-       console.log(response)
+        timeout : 9000000
+    }).then(async function (response) {
+       //console.log(response)
         return response;
     });
     
@@ -30,7 +30,7 @@ module.exports.getResponse = async function (type, URL, options,object) {
     if (result != null) {
        //s var body = result.data.toString('utf8');
         var body = result.data;
-        if (IsJsonString(body)) {
+        if (await IsJsonString(body)) {
             body = JSON.parse(body)
         }
         response = { "statusCode": result.status, "headers": result.headers, "body": body, "error": null }
@@ -42,7 +42,7 @@ module.exports.getResponse = async function (type, URL, options,object) {
 
 }
 
-function IsJsonString(str) {
+async function IsJsonString(str) {
     try {
         JSON.parse(str);
     } catch (e) {
