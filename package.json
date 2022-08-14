@@ -4,7 +4,7 @@
   "description": "",
   "main": "",
   "scripts": {
-    "test": "WebServices"
+    "test": "--timeout 9000000"
   },
   "keywords": [],
   "author": "",
@@ -29,13 +29,15 @@
   "args": [
     "-u",
     "bdd",
-    "--timeout",
+    "timeout",
     "999999",
     "--colors",
     "${workspaceFolder}/test/**/*.js"
   ],
   "internalConsoleOptions": "openOnSessionStart",
   "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.29.4",
     "nvm": "^0.0.4"
   }
 }

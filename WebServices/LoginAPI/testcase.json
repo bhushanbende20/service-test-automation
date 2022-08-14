@@ -1,0 +1,38 @@
+{
+    "testSuit": "API Test USER",
+    "testData": {
+        "test1": {
+            "id": "01",
+            "testName" :"Verify Response with valid username and password",
+            "status":200,
+            "suit":["regression" ,"smoke","login1"],
+            "test_key":["payload.username","payload.password"],
+            "test_value":["qasupportuser@360logica.com","Welc0me19ALPHA-Q@"]
+        },
+        "test2": {
+            "id": "01",
+            "status":200,
+            "testName" :"Verify Response with In-Valid username and password",
+            "suit":["regression" ,"smoke","login"],
+            "test_key":["payload.username","payload.password"],
+            "test_value":["monkeyUser@rediffmail.com","Welc0me19ALPHA-Q@"]
+        },
+        "test3": {
+            "id": "01",
+            "testName" :"Verify Response with valid username and password",
+            "status":200,
+            "suit":["regression" ,"smoke","login1"],
+            "test_key":["payload.username","payload.password"],
+            "test_value":["qasupportuser@360logica.com","Welc0me19ALPHA-Q@"]
+        },
+        "test4": {
+            "id": "01",
+            "status":200,
+            "testName" :"Verify Response with In-Valid username and password",
+            "suit":["regression" ,"smoke","login"],
+            "test_key":["payload.username","payload.password"],
+            "test_value":["monkeyUser@rediffmail.com","Welc0me19ALPHA-Q@"]
+        }
+
+    }
+}

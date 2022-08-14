@@ -1,0 +1,30 @@
+{
+    "pagingResult": null,
+    "data": [
+        {
+            "clientId": 3196,
+            "externalReferenceId": "c17f8e41-3ae5-4c63-bc45-041d4f4df5e9",
+            "totangoId": null,
+            "name": "1Del_API_Tenant_2022-08-10_06-19-54-PM",
+            "defaultTimezone": "Africa/Abidjan",
+            "defaultCurrencyCodeId": 1,
+            "defaultCurrencyCode": null,
+            "description": "1Del API Tenant Description_2022-08-10_06-19-54-PM",
+            "isActive": true,
+            "createdByUserId": 11328,
+            "createdDate": "2022-08-10T12:49:53.1774077+00:00",
+            "isExternalEmailEnabled": false,
+            "lastModifiedByUserId": 11328,
+            "lastModifiedDate": "2022-08-10T12:49:53.1774077+00:00",
+            "notes": "1Tenant note 2022-08-10_06-19-54-PM",
+            "urlSlugName": "1slugname2022-08-10_06-19-54-PM",
+            "domains": [],
+            "partnerEntityId": null,
+            "twoFactorEnabled": false,
+            "salesforceId": "99908undefined",
+            "ssoDefinitions": null,
+            "tenantType": 0
+        }
+    ],
+    "error": null
+}
