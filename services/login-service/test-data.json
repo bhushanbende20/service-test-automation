@@ -1,0 +1,21 @@
+{
+    "testSuit": "API Test USER",
+    "testData": {
+        "1": {
+            "id": "01",
+            "testName" :"Verify response with valid username and password",
+            "status":200,
+            "suit":["regression","smoke","login"],
+            "test_key":["payload.username","payload.password"],
+            "test_value":["qasupportuser@360logica.com","Welc0me19ALPHA-Q@"]
+        },
+        "2": {
+            "id": "02",
+            "status":200,
+            "testName" :"Verify response with In-Valid username and password",
+            "suit":["regression","smoke","login"],
+            "test_key":["payload.username","payload.password"],
+            "test_value":["monkeyUser@rediffmail.com","Welc0me19ALPHA-Q@"]
+        }
+    }
+}

@@ -2,9 +2,9 @@ const EventEmitter = require("events");
 const fs = require("fs");
 const expect = require("chai").expect;
 const config = require("../../config/config.json");
-const loginUser = require("./testScript.js");
-const hitwebservices = require("../../API_Framework/hitWebAPI");
-var testDatafile = require("./testcase.json");
+const loginUser = require("./test-script.js");
+const hitwebservices = require("../../util/api-util");
+var testDatafile = require("./test-data.json");
 var testData = testDatafile.testData;
 const MyEmitter = new EventEmitter();
 const addContext = require('mochawesome/addContext');
@@ -13,7 +13,7 @@ const { createUserResponseValidation } = require("./validation");
 var requestData = require("./request.json")
 var header = {}
 var validation = require("./validation.js");
-var utilities = require("../../utilities/utilities.js");
+var utilities = require("../../util/common-util.js");
 var pathURL = "legacy-authentication/login";
 
 
@@ -27,7 +27,7 @@ describe('loginUser Testing', () => {
             it(String(testData.id), async function () {
                 console.log(testData.testName);
                 await loginUser.verifyTest(this, testData);
-            });
+            }).timeout(900000);
         }
 
     });

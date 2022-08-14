@@ -1,0 +1,11 @@
+{
+    "testSuit": "Create tenant service test data",
+    "testData": {
+        "1": {
+            "id": "01",
+            "status":200,
+            "testName":"create tenant using valid authentication token",
+            "suit":["regression" ,"smoke"]
+        }
+    }
+}

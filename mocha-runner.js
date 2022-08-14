@@ -7,7 +7,7 @@ const mocha = new Mocha({
     reporter : 'Mochawesome',
 
     reporterOptions:{
-        reportFilename : "API TEST AUTOMATION ",
+        reportFilename : "SERVICE TEST AUTOMATION ",
         timestamp: 'ddmmyyHH:MM'
     }    
 })

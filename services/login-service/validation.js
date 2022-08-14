@@ -1,7 +1,7 @@
 const { expect, assert } = require("chai");
 const addContext = require("mochawesome/addcontext");
 var expectedResponse = require("./response.json");
-var utilities =require(global.path+"/utilities/utilities.js")
+var utilities =require(global.path+"/util/common-util.js")
 
 
 module.exports.createUserResponseValidation = async function (object, actualresponse, request, testData) {
