@@ -1,0 +1,29 @@
+{
+    "testSuit": "Select tenant service test data",
+    "testData": {
+        "1": {
+            "id": "01",
+            "status":200,
+            "testName":"create tenant using valid ClientId ",
+            "suit":["regression" ,"smoke"],
+            "test_key":["payload.clientId"],
+            "test_value":["6844"]
+        },
+        "2": {
+            "id": "01",
+            "status":200,
+            "testName":"create tenant using valid ClientId ",
+            "suit":["regression" ,"smoke"],
+            "test_key":["payload.clientId"],
+            "test_value":["6845"]
+        },
+        "3": {
+            "id": "01",
+            "status":200,
+            "testName":"create tenant using IN-valid ClientId ",
+            "suit":["regression" ,"smoke"],
+            "test_key":["payload.clientId"],
+            "test_value":["aaaa"]
+        }
+    }
+}

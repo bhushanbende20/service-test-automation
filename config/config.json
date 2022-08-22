@@ -1,11 +1,10 @@
 {
     "executionGroup":"smoke",
     "testPathModules":[
-        "./services/create-tenant-service/test-script",
-        "./services/login-service/test-script"
+        "./services/select-tenant-service/test-script"
         
     ],
-    "url":"https://uat.platform.devacaalpha.com/api/id/v3/",
+    "url":"https://qa.platform.devacaalpha.com/api/id/v3/",
     "header":{
         "Content-Type" :"Application/JSON",
         "Authorization":"" 
